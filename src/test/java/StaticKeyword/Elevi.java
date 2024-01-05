@@ -1,6 +1,6 @@
 package StaticKeyword;
 
-public class Elev {
+public class Elevi {
 
     //Static este un keyword care are ca scop sa pastreze valoarea unei informatii pt toate instantele undei clase
     // static se poate aplica la variabile si metode
@@ -8,20 +8,18 @@ public class Elev {
     private String numeElev;
     private String prenumeElev;
     private String scoala = "Liviu Rebreanu";
-    private static Integer nrElevi=0;
-    public Elev(String numeElev,String prenumeElev){
+    private static Integer nrElev=0;
+    public Elevi(String numeElev, String prenumeElev){
         this.numeElev = numeElev;
         this.prenumeElev = prenumeElev;
-        nrElevi++;
+        nrElev++;
     }
     
     public void prezentareElev(){
         System.out.println("Numele elevului este " + numeElev);
         System.out.println("Prenumele elevului este"+ prenumeElev);
         System.out.println("scoala elevului este " +scoala);
-        System.out.println("Nr elevi inscrisi la scoala sun:"+nrElevi);
+        System.out.println("Nr elevi inscrisi la scoala sun:"+nrElev);
     }
-
-
 
 }

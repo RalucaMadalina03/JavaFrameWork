@@ -1,5 +1,6 @@
 package Obiect;
 
+
 import org.testng.annotations.Test;
 
 public class ObiectTest {
